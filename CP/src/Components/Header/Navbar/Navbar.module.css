@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.navbar {
+  padding: 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 50%;
+  padding-left: 7%;
+}
+
+.list {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+
+.list li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 23px;
+  color: white;
+  border: 0px solid black;
+  margin-right: 60px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+
+
+
+
+.active{
+  text-decoration: underline;
+  color:rgb(21, 255, 255);
+  color: rgb(33, 31, 31);
+}
+.dea{
+  text-decoration: none;
+  color: rgb(2, 7, 45);
+}
+.dea:hover{
+  color: rgb(44, 12, 12);
+}
